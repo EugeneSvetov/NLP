@@ -25,4 +25,4 @@ for n in clean:
 tree = chunk_parser.parse(l)
 tree.draw()
 fd = FreqDist(l)
-print(fd.most_common(3))
+print(fd.most_common(5))
